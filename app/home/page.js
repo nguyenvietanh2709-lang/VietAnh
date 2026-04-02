@@ -1,15 +1,19 @@
 import React from 'react';
-import Navigator from '../component/Navigator';
-import Header from '../component/Header';
-import Projects from '../component/Projects';
-import About from '../component/About';
-import Contact from '../component/Contact'; 
+import Navigator from './component/Navigator';
+import Header from './component/Header';
+import Projects from './component/Projects';
+import About from './component/About';
+import Contact from './component/Contact';
 
 export default function Home() {
   return (
     <>
-      
-      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+      {/* Sửa lỗi bằng cách thêm thuộc tính precedence */}
+      <link
+        rel="stylesheet"
+        href="https://www.w3schools.com/w3css/4/w3.css"
+        precedence="default"
+      />
 
       <div>
         {/* Navbar */}
